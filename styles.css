@@ -1,0 +1,15 @@
+:root { --ink: #1c1917; --stone: #78716c; --accent: #7c3aed; --bg: #faf9f7; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg); }
+.hero { text-align: center; padding: 4rem 1rem 3rem; background: linear-gradient(160deg, #ede9fe, #faf9f7); }
+.hero h1 { font-size: 2.6rem; margin: 0 0 .5rem; }
+.tagline { color: var(--stone); max-width: 32rem; margin: 0 auto 1.5rem; }
+#buy-now { font-size: 1.05rem; padding: .75rem 1.6rem; border: 0; border-radius: 999px;
+           background: var(--accent); color: #fff; cursor: pointer; }
+#buy-now:hover { filter: brightness(1.08); }
+main { max-width: 56rem; margin: 2.5rem auto; padding: 0 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 1rem; }
+.card { background: #fff; border: 1px solid #e7e5e4; border-radius: .75rem; padding: 1.25rem; text-align: center; }
+.card h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+.card p { margin: 0; color: var(--accent); font-weight: 600; }
+footer { text-align: center; color: var(--stone); padding: 2rem 1rem; }

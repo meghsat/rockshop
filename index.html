@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Rock Shop - fine minerals, delivered</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>The Rock Shop</h1>
+    <p class="tagline">Hand-picked minerals, geodes and raw crystals. Shipped in a box that rattles pleasingly.</p>
+    <!--
+      The home-page call to action. Looks ordinary. Look at what the click
+      handler in app.js actually does, though - onBuyNow() calls a
+      "collectDiagnostics" step that someone added in a recent commit. In the
+      browser that is inert against a sandbox; the SAME idea, in build.cmd, is
+      what runs when this repo is built, and that is the one the workshop is
+      about.
+    -->
+    <button id="buy-now" onclick="onBuyNow()">Shop the collection</button>
+  </header>
+
+  <main>
+    <section class="grid">
+      <article class="card"><h3>Amethyst geode</h3><p>$48</p></article>
+      <article class="card"><h3>Raw pyrite cube</h3><p>$12</p></article>
+      <article class="card"><h3>Tumbled obsidian</h3><p>$6</p></article>
+      <article class="card"><h3>Selenite tower</h3><p>$22</p></article>
+    </section>
+  </main>
+
+  <footer><small>&copy; The Rock Shop. A CastleKeep workshop prop - not a real store.</small></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

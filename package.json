@@ -1,0 +1,12 @@
+{
+  "name": "rockshop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Rock Shop - a small static storefront for selling minerals.",
+  "scripts": {
+    "build": "build.cmd",
+    "start": "build.cmd && echo open dist/index.html in a browser"
+  },
+  "author": "The Rock Shop",
+  "license": "MIT"
+}
